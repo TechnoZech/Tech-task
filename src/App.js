@@ -11,7 +11,7 @@ import VerifyEmail from "./pages/VerifyEmail";
 const App = () => {
     return (
         <Router>
-            <Navbar />
+            {/* <Navbar /> */}
             <ToastContainer position="top-right" autoClose={3000} />
             <Routes>
                 <Route path="/" element={<Home />} />
@@ -19,7 +19,6 @@ const App = () => {
                 <Route path="/register/admin" element={<AdminRegister />} />
                 <Route path="/login/admin" element={<AdminLogin />} />
                 <Route path="/verify-email/:token" element={<VerifyEmail />} />
-
             </Routes>
         </Router>
     );
