@@ -29,7 +29,7 @@ const AdminLogin = () => {
 	return (
 		<div className="max-w-md mx-auto mt-10 bg-white shadow-lg rounded-lg p-6">
 			<h2 className="text-2xl font-bold text-center text-gray-800">
-				Admin Login
+				Login
 			</h2>
 
 			<form onSubmit={handleSubmit} className="space-y-4">
