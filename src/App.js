@@ -11,7 +11,7 @@ import VerifyEmail from "./pages/VerifyEmail";
 const App = () => {
     return (
         <Router>
-            {/* <Navbar /> */}
+            <Navbar />
             <ToastContainer position="top-right" autoClose={3000} />
             <Routes>
                 <Route path="/" element={<Home />} />
